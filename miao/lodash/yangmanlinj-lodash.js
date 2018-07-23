@@ -281,7 +281,7 @@ var yangmanlinj = {
 
   differenceBy: function differenceBy(array, ...args) {
     var iteratee
-    if (typeof args[args.length - 1] === 'string' typeof args[args.length - 1] === 'function') {
+    if (typeof args[args.length - 1] === 'string' || typeof args[args.length - 1] === 'function') {
       iteratee = args.pop()
     } else {
       iteratee = identity
