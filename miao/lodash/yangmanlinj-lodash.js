@@ -291,10 +291,10 @@ var yangmanlinj = {
   dropWhile: function dropWhile(ary, predicate) {
     predicate = iteratee(predicate)
 
-    for () {
-      if (predicate()) {}
-        break;
-    }
+    // for () {
+    //   if (predicate()) {}
+    //     break;
+    // }
     return result
   },
 
