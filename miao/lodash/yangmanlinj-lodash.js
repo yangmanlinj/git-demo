@@ -286,10 +286,6 @@ var yangmanlinj = {
     } else {
       iteratee = identity
     } //参数归一化
-
-    for () {
-      
-    }
   },
 
   dropWhile: function dropWhile(ary, predicate) {
