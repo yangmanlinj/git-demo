@@ -302,7 +302,7 @@ var yangmanlinj = {
     if (typeof shorthand === 'function') {
       return shorthand
     }
-    if (typeof shorthand = 'string') {
+    if (typeof shorthand === 'string') {
       return _.matches(shorthand)
     }
 
