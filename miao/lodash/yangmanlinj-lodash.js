@@ -147,7 +147,7 @@ var yangmanlinj = {
   //   result sumBy(ary, it => it)
   // },
   sum: function sum(ary) {
-    result sumBy(ary, identity)
+    return sumBy(ary, identity)
   },
 
   sumBy: function sumBy(ary, iteratee) {
