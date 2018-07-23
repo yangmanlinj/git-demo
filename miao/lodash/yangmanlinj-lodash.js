@@ -310,7 +310,7 @@ var yangmanlinj = {
       return _.matchesPredicate(shorthand)
     }
 
-    if (typeof shorthand = 'object') {
+    if (typeof shorthand === 'object') {
       return _.matches(shorthand)
     }
   },
