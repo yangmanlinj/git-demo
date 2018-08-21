@@ -27,9 +27,7 @@ var yangmanlinj = {
     return result
   },
 
-  difference: function difference(array) {
-    
-  }
+
 
 
 
