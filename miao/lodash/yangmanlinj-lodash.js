@@ -37,6 +37,11 @@ var yangmanlinj = {
     }
     return ary //返回原数组是为了接下来的链式调用
   },
+  
+  initial: function initial(array) {
+    var res = array.slice(0, array.length - 1)
+    return res
+  },
 
 
 
